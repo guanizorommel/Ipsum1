@@ -52,6 +52,13 @@ p {
     /* border: 3px solid red; */
 }
 
+.contact:hover {
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 10px;
+    border: 2px solid;
+    border-color:powderblue;
+}
+
 .contacttext {
     margin-left: 30px;
     color: #fff;
@@ -78,9 +85,30 @@ p {
 
 
 .socialicon {
-    border: 3px solid green; 
+    /* border: 3px solid green;  */
     margin-top: 4em;
-    padding: 2em 2em;
+    padding: 1.5em 1em;
+}
+
+.socialiconcontainer {
+    color: #fff;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* border: 3px solid green; */
+}
+
+.socialiconbox {
+    padding: 1.5em 1.75em;
+    align-content: center;
+    border-radius: 100%;
+    max-width: 100%;
+    /* border: 3px solid white; */
+}
+
+.socialiconbox:hover {
+    background-color: rgb(11, 74, 248);
 }
 
 .formbox {
@@ -92,8 +120,68 @@ p {
 }
 
 .formname {
-    color: black;
+    color: rgb(46, 45, 45);
+    font-family: "Poppins", sans-serif;
     font-size: 1rem;
+    font-weight: 400;
+    padding: 1em 0em;
+}
+
+.inputcontainer {
+    display: flex;
+    padding: 1em 1em;
+    border: 2px solid;
+    border-color: rgba(128, 128, 128, 0.363);
+    border-radius: 5px;
+}
+
+
+.inputcontainer:hover {
+    border-color: rgba(12, 12, 228, 0.747);
+    color: rgba(12, 12, 228, 0.747);
+}
+
+
+.input-field {
+    margin: 0 auto;
+    width: 100%;
+    border: 0;
+    margin-left: 10px;
+}
+
+.input-field:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+
+.buttoncontainer {
+    margin-top: 10px;
+    text-align: right;
+}
+
+button {
+    border: 0;
+    font-family: "Popping", sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color:rgb(11, 74, 248);
+    color: #fff;
+    padding: 1em 2em;
+}
+
+button:hover {
+    background-color:rgba(11, 74, 248, 0.63);
+}
+
+@media (max-width:850px){
+    .container {
+        display:block;
+    }
+
+    .hero {
+        display: flex;
+    }
+
 }
 
 
