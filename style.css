@@ -5,7 +5,7 @@
 }
 
 .hero {
-    background-color: darkblue;
+    background-color: rgb(3, 3, 104);
     min-width: 100vh;
     min-height: 100vh;
     margin: 0 auto;
@@ -19,6 +19,10 @@
     justify-content: space-between;
 }
 
+img {
+    width: 100%;
+}
+
 h1, h2, h3, p {
     color: #fff;
     font-family: "Poppins", sans-serif;
@@ -26,21 +30,57 @@ h1, h2, h3, p {
 
 h1 {
     font-size: 2.5rem;
+    margin-bottom: .5em;
 }
 
 p {
     font-weight: 400;
     font-size: 1rem;
-    width: 400px;
     color: rgb(211, 208, 208)
 }
 
-.contact {
-    margin-top: 8em;
+.herotitle {
+    margin-bottom: 6em;
+    line-height: 1.5;
 }
 
-.contact p {
-    padding: 1em 1em;
+.contact {
+    padding: 1.5em 1.5em;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+}
+
+.contacttext {
+    margin-left: 30px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    /* border: 3px solid pink; */
+}
+
+.iconcontainer {
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid gold; */
+}
+
+
+
+.icon {
+    color: rgb(11, 74, 248);
+    /* border: 3px solid green; */
+    max-width: 100%;
+}
+
+
+.socialicon {
+    border: 3px solid green; 
+    margin-top: 4em;
+    padding: 2em 2em;
 }
 
 .formbox {
